@@ -1,1 +1,0 @@
-Yamen amcigini eim!
