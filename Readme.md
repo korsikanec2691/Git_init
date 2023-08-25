@@ -11,3 +11,12 @@
 * ## Resume
 [video](https://www.youtube.com/watch?v=jPKi2Addbxw
 )
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
