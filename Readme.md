@@ -9,5 +9,12 @@
     * ### Telegram: _@notelegram;_
 
 * ## Resume
-[video](https://www.youtube.com/watch?v=jPKi2Addbxw
-)
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit -m 'text'"--> tracked/comitted;
+  tracked/comitted --"git push origin (branch name)"-->tracked/mofied
+
+```
