@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+ul {
+    list-style: none;
+}
+
+font-family: 'Open Sans',
+sans-serif;
+
+
+.header {
+    padding-top: 12px;
+
+}
+
+.container {
+    width: 1378px;
+    padding: 0 32px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo__link {
+    padding-right: 500px;
+}
+
+.logo__img {}
+
+.nav__top {
+   
+}
+
+.header__list {}
+
+.nav__item {}
+
+.nav__link {}
+
+.phone {}
